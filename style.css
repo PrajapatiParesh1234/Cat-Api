@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/376/659/small_2x/frightened-cat-peeks-out-from-behind-a-corner-on-a-blue-background-with-copy-space-created-with-generative-ai-technology-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.box {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    /* padding-top: 70px; */
+    /* padding-left: 50px; */
+    overflow: hidden;
+    /* box-shadow: -3px -2px 34px 3px rgba(237, 36, 96, 0.94); */
+}
+
+.img {
+    width: auto;
+    height: auto;
+    box-shadow: -3px -2px 34px 3px rgba(237, 36, 96, 0.94);
+    overflow: hidden;
+}
+
+/* From Uiverse.io by gharsh11032000 */
+.button {
+    cursor: pointer;
+    /* margin-left: 580px; */
+    /* margin-top: 50px; */
+    margin: 20px auto;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(193, 163, 98);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    overflow: hidden;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.button:hover::before {
+    scale: 3;
+}
+
+.button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+
+.button:active {
+    scale: 1;
+}

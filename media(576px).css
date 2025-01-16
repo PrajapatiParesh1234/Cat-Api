@@ -1,0 +1,11 @@
+@media (max-width: 575.98px) {
+    .img {
+      max-width: 100%;
+      max-height: 50%;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
